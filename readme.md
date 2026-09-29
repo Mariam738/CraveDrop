@@ -16,3 +16,7 @@ Java, Spring Boot Spring Framework, Redis, Maven, Apache Kafka, MySQL, Docker Co
 
 ## Database Boundaries per Service 🚧
 <img width="1513" height="911" alt="db" src="https://github.com/user-attachments/assets/fd1c8713-0ce6-4dbd-88b8-4ab0b81d4b21" />
+
+## Architecture 🏗️
+<img width="2370" height="4496" alt="cravedrop_architecture" src="https://github.com/user-attachments/assets/fdd3ffd1-9052-426a-8ca1-6533294b8b09" />
+
