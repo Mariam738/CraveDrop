@@ -1,0 +1,58 @@
+HELP.md
+target/
+**/target/
+build/
+**/build/
+.mvn/wrapper/maven-wrapper.jar
+**/ .mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+**/.apt_generated
+.classpath
+**/.classpath
+.factorypath
+**/.factorypath
+.project
+**/.project
+.settings
+**/.settings
+.springBeans
+**/.springBeans
+.sts4-cache
+**/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+**/.idea
+*.iws
+**/*.iws
+*.iml
+**/*.iml
+*.ipr
+**/*.ipr
+
+### NetBeans ###
+/nbproject/private/
+**/nbproject/private/
+/nbbuild/
+**/nbbuild/
+/dist/
+**/dist/
+/nbdist/
+**/nbdist/
+/.nb-gradle/
+**/.nb-gradle/
+
+### VS Code ###
+.vscode/
+**/.vscode/
+
+### Other ###
+*.drawio
+*.txt
+*.py

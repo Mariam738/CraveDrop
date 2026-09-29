@@ -20,3 +20,13 @@ Java, Spring Boot Spring Framework, Redis, Maven, Apache Kafka, MySQL, Docker Co
 ## Architecture 🏗️
 <img width="2370" height="4496" alt="cravedrop_architecture" src="https://github.com/user-attachments/assets/fdd3ffd1-9052-426a-8ca1-6533294b8b09" />
 
+## API Design
+- Location Service 📍
+    - POST   /locations/drivers/update
+    - GET    /locations/driver/nearby
+        - Params: Latitude, Longitude, Radius (optional)
+    - DELETE /locations/drivers/{driverId}
+
+##  🙏 Acknowledgements
+- The foundational base for select domain modules (such as driver tracking and matching logic, with the tutorial's ride service adapted into an order service  for a food delivery context) was **inspired, sourced, and adapted** from Yeshendra Dhaker's's Uber Clone tutorial [Github](https://github.com/YeshendraDhaker/Uber-App) | [Video](https://www.youtube.com/watch?v=Cdx4DF9N8d8).
+
