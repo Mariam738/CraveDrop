@@ -12,10 +12,11 @@ Java, Spring Boot Spring Framework, Redis, Maven, Apache Kafka, MySQL, Docker Co
 | Driver Order Assignment     |                   |
 
 ## Data Model 🛢️
-<img width="1527" height="843" alt="db" src="https://github.com/user-attachments/assets/38220e9a-d4f1-4b15-97bb-6fa07d26dd49" />
+<img width="1622" height="885" alt="db" src="https://github.com/user-attachments/assets/8d22700d-5099-4b53-8996-19575e071e39" />
 
 ## Database Boundaries per Service 🚧
-<img width="1528" height="844" alt="db" src="https://github.com/user-attachments/assets/974a2cde-0770-4243-9095-e6567c3a39ce" />
+<img width="1622" height="899" alt="db" src="https://github.com/user-attachments/assets/3af410ea-1909-43bc-8ca5-3f93b0d66fe1" />
+
 
 ## Architecture 🏗️
 <img width="2370" height="4496" alt="cravedrop_architecture" src="https://github.com/user-attachments/assets/5ade4b31-d01e-41b9-87b1-ee2363d724c7" />
