@@ -56,3 +56,6 @@ build/
 *.drawio
 *.txt
 *.py
+venv
+data/swiggy_india.jsonl
+*.zip

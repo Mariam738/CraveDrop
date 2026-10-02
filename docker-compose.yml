@@ -6,3 +6,30 @@ services:
     ports:
       - "6379:6379"
   
+  mysql-db:
+    image: mysql:8.3.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db-data:/var/lib/mysql
+      - db-logs:/var/log/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: mysql-db # Must match your exact MySQL service name
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "8100:80"
+    depends_on:
+      - mysql-db
+
+volumes:
+  db-data:
+  db-logs:
